@@ -6,23 +6,161 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0671570D2DD46C8C00DC961B /* Academate Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 067157002DD46C8B00DC961B /* Academate Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		06D6140B2DD196CA00B9F46A /* DotLottie in Frameworks */ = {isa = PBXBuildFile; productRef = 06D6140A2DD196CA00B9F46A /* DotLottie */; };
+		06E8F2D42DD63B130087A02E /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E8F2D32DD63B0C0087A02E /* Session.swift */; };
+		06E8F2D52DD63B130087A02E /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E8F2D32DD63B0C0087A02E /* Session.swift */; };
+		06E8F2DA2DD63BA70087A02E /* UserDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E8F2D92DD63BA60087A02E /* UserDataProvider.swift */; };
+		06E8F2DB2DD63BA70087A02E /* UserDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E8F2D92DD63BA60087A02E /* UserDataProvider.swift */; };
+		06F111262DD88301000A92B9 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F110A72DD71C41000A92B9 /* WidgetKit.framework */; };
+		06F111272DD88301000A92B9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F110A92DD71C41000A92B9 /* SwiftUI.framework */; };
+		06F111322DD88301000A92B9 /* AcademateWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 06F111252DD88301000A92B9 /* AcademateWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0671570B2DD46C8C00DC961B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06D612ED2DCD9B7A00B9F46A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 067156FF2DD46C8B00DC961B;
+			remoteInfo = "Academate Watch App";
+		};
+		06F111302DD88301000A92B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06D612ED2DCD9B7A00B9F46A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F111242DD88301000A92B9;
+			remoteInfo = AcademateWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0671570E2DD46C8C00DC961B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0671570D2DD46C8C00DC961B /* Academate Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F110C02DD71C42000A92B9 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				06F111322DD88301000A92B9 /* AcademateWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		067157002DD46C8B00DC961B /* Academate Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Academate Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D612F52DCD9B7A00B9F46A /* AcademyMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcademyMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E8F2D32DD63B0C0087A02E /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		06E8F2D92DD63BA60087A02E /* UserDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataProvider.swift; sourceTree = "<group>"; };
+		06F110A72DD71C41000A92B9 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		06F110A92DD71C41000A92B9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		06F111252DD88301000A92B9 /* AcademateWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AcademateWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F111392DD88567000A92B9 /* AcademateWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AcademateWidgetExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		067157132DD46C9A00DC961B /* Exceptions for "AcademyMate" folder in "Academate Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				Component/CardProfile.swift,
+				Data/AcademyMateData.swift,
+				Model/AcademyMateModel.swift,
+				Model/CardProfileModel.swift,
+				Utilities/Constants.swift,
+				View/Profile/ProfileModelView.swift,
+				View/Profile/ProfileView.swift,
+			);
+			target = 067156FF2DD46C8B00DC961B /* Academate Watch App */;
+		};
+		06D614082DD1944C00B9F46A /* Exceptions for "AcademyMate" folder in "AcademyMate" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 06D612F42DCD9B7A00B9F46A /* AcademyMate */;
+		};
+		06F111362DD88301000A92B9 /* Exceptions for "AcademateWidget" folder in "AcademateWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 06F111242DD88301000A92B9 /* AcademateWidgetExtension */;
+		};
+		06F111382DD88343000A92B9 /* Exceptions for "AcademyMate" folder in "AcademateWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				Data/LeaderboradData.swift,
+				Model/AcademyMateModel.swift,
+				Model/LeaderboardModel.swift,
+				Utilities/Constants.swift,
+			);
+			target = 06F111242DD88301000A92B9 /* AcademateWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		067157012DD46C8B00DC961B /* Academate Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Academate Watch App";
+			sourceTree = "<group>";
+		};
 		06D612F72DCD9B7A00B9F46A /* AcademyMate */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				06D614082DD1944C00B9F46A /* Exceptions for "AcademyMate" folder in "AcademyMate" target */,
+				067157132DD46C9A00DC961B /* Exceptions for "AcademyMate" folder in "Academate Watch App" target */,
+				06F111382DD88343000A92B9 /* Exceptions for "AcademyMate" folder in "AcademateWidgetExtension" target */,
+			);
 			path = AcademyMate;
+			sourceTree = "<group>";
+		};
+		06F111282DD88301000A92B9 /* AcademateWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				06F111362DD88301000A92B9 /* Exceptions for "AcademateWidget" folder in "AcademateWidgetExtension" target */,
+			);
+			path = AcademateWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		067156FD2DD46C8B00DC961B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		06D612F22DCD9B7A00B9F46A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D6140B2DD196CA00B9F46A /* DotLottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F111222DD88301000A92B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F111272DD88301000A92B9 /* SwiftUI.framework in Frameworks */,
+				06F111262DD88301000A92B9 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +170,12 @@
 		06D612EC2DCD9B7A00B9F46A = {
 			isa = PBXGroup;
 			children = (
+				06F111392DD88567000A92B9 /* AcademateWidgetExtension.entitlements */,
+				06E8F2CF2DD637200087A02E /* Shared */,
 				06D612F72DCD9B7A00B9F46A /* AcademyMate */,
+				067157012DD46C8B00DC961B /* Academate Watch App */,
+				06F111282DD88301000A92B9 /* AcademateWidget */,
+				06F110A62DD71C41000A92B9 /* Frameworks */,
 				06D612F62DCD9B7A00B9F46A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,13 +184,55 @@
 			isa = PBXGroup;
 			children = (
 				06D612F52DCD9B7A00B9F46A /* AcademyMate.app */,
+				067157002DD46C8B00DC961B /* Academate Watch App.app */,
+				06F111252DD88301000A92B9 /* AcademateWidgetExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		06E8F2CF2DD637200087A02E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				06E8F2D92DD63BA60087A02E /* UserDataProvider.swift */,
+				06E8F2D32DD63B0C0087A02E /* Session.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		06F110A62DD71C41000A92B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06F110A72DD71C41000A92B9 /* WidgetKit.framework */,
+				06F110A92DD71C41000A92B9 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		067156FF2DD46C8B00DC961B /* Academate Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067157112DD46C8C00DC961B /* Build configuration list for PBXNativeTarget "Academate Watch App" */;
+			buildPhases = (
+				067156FC2DD46C8B00DC961B /* Sources */,
+				067156FD2DD46C8B00DC961B /* Frameworks */,
+				067156FE2DD46C8B00DC961B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				067157012DD46C8B00DC961B /* Academate Watch App */,
+			);
+			name = "Academate Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Academate Watch App";
+			productReference = 067157002DD46C8B00DC961B /* Academate Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		06D612F42DCD9B7A00B9F46A /* AcademyMate */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06D613032DCD9B7C00B9F46A /* Build configuration list for PBXNativeTarget "AcademyMate" */;
@@ -55,20 +240,47 @@
 				06D612F12DCD9B7A00B9F46A /* Sources */,
 				06D612F22DCD9B7A00B9F46A /* Frameworks */,
 				06D612F32DCD9B7A00B9F46A /* Resources */,
+				0671570E2DD46C8C00DC961B /* Embed Watch Content */,
+				06F110C02DD71C42000A92B9 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0671570C2DD46C8C00DC961B /* PBXTargetDependency */,
+				06F111312DD88301000A92B9 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				06D612F72DCD9B7A00B9F46A /* AcademyMate */,
 			);
 			name = AcademyMate;
 			packageProductDependencies = (
+				06D6140A2DD196CA00B9F46A /* DotLottie */,
 			);
 			productName = AcademyMate;
 			productReference = 06D612F52DCD9B7A00B9F46A /* AcademyMate.app */;
 			productType = "com.apple.product-type.application";
+		};
+		06F111242DD88301000A92B9 /* AcademateWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F111332DD88301000A92B9 /* Build configuration list for PBXNativeTarget "AcademateWidgetExtension" */;
+			buildPhases = (
+				06F111212DD88301000A92B9 /* Sources */,
+				06F111222DD88301000A92B9 /* Frameworks */,
+				06F111232DD88301000A92B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				06F111282DD88301000A92B9 /* AcademateWidget */,
+			);
+			name = AcademateWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = AcademateWidgetExtension;
+			productReference = 06F111252DD88301000A92B9 /* AcademateWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -80,7 +292,13 @@
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					067156FF2DD46C8B00DC961B = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					06D612F42DCD9B7A00B9F46A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					06F111242DD88301000A92B9 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
@@ -94,18 +312,37 @@
 			);
 			mainGroup = 06D612EC2DCD9B7A00B9F46A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				06D614092DD196CA00B9F46A /* XCRemoteSwiftPackageReference "dotlottie-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 06D612F62DCD9B7A00B9F46A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				06D612F42DCD9B7A00B9F46A /* AcademyMate */,
+				067156FF2DD46C8B00DC961B /* Academate Watch App */,
+				06F111242DD88301000A92B9 /* AcademateWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		067156FE2DD46C8B00DC961B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		06D612F32DCD9B7A00B9F46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F111232DD88301000A92B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +352,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		067156FC2DD46C8B00DC961B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E8F2DA2DD63BA70087A02E /* UserDataProvider.swift in Sources */,
+				06E8F2D52DD63B130087A02E /* Session.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		06D612F12DCD9B7A00B9F46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E8F2DB2DD63BA70087A02E /* UserDataProvider.swift in Sources */,
+				06E8F2D42DD63B130087A02E /* Session.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F111212DD88301000A92B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -124,7 +379,82 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		0671570C2DD46C8C00DC961B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 067156FF2DD46C8B00DC961B /* Academate Watch App */;
+			targetProxy = 0671570B2DD46C8C00DC961B /* PBXContainerItemProxy */;
+		};
+		06F111312DD88301000A92B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06F111242DD88301000A92B9 /* AcademateWidgetExtension */;
+			targetProxy = 06F111302DD88301000A92B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		0671570F2DD46C8C00DC961B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Academate Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JBFNSVT26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Academate-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Academate;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.arin.AcademyMate;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arin.AcademyMate.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		067157102DD46C8C00DC961B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Academate Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JBFNSVT26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Academate-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Academate;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.arin.AcademyMate;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arin.AcademyMate.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
 		06D613012DCD9B7C00B9F46A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -249,15 +579,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AcademyMate/AcademyMate.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AcademyMate/Preview Content\"";
 				DEVELOPMENT_TEAM = 8JBFNSVT26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AcademyMate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -267,6 +598,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.arin.AcademyMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -278,15 +613,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AcademyMate/AcademyMate.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AcademyMate/Preview Content\"";
 				DEVELOPMENT_TEAM = 8JBFNSVT26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AcademyMate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -296,6 +632,66 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.arin.AcademyMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06F111342DD88301000A92B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = AcademateWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JBFNSVT26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AcademateWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AcademateWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arin.AcademyMate.AcademateWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06F111352DD88301000A92B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = AcademateWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8JBFNSVT26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AcademateWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AcademateWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arin.AcademyMate.AcademateWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,6 +701,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		067157112DD46C8C00DC961B /* Build configuration list for PBXNativeTarget "Academate Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0671570F2DD46C8C00DC961B /* Debug */,
+				067157102DD46C8C00DC961B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		06D612F02DCD9B7A00B9F46A /* Build configuration list for PBXProject "AcademyMate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -323,7 +728,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		06F111332DD88301000A92B9 /* Build configuration list for PBXNativeTarget "AcademateWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F111342DD88301000A92B9 /* Debug */,
+				06F111352DD88301000A92B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		06D614092DD196CA00B9F46A /* XCRemoteSwiftPackageReference "dotlottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LottieFiles/dotlottie-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		06D6140A2DD196CA00B9F46A /* DotLottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06D614092DD196CA00B9F46A /* XCRemoteSwiftPackageReference "dotlottie-ios" */;
+			productName = DotLottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 06D612ED2DCD9B7A00B9F46A /* Project object */;
 }
